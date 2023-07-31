@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: ArgoCDExtension
 metadata:
-  name: argocd-appset-ext
+  name: argocd-rollouts-ext
   labels:
     tab: "Rollout"
     icon: "fa-files"
@@ -10,4 +10,4 @@ metadata:
 spec:
   sources:
     - web:
-        url: https://raw.githubusercontent.com/speedfl/argocd-apps-of-applicationset/master/ui/dist/extension.tar
+        url: https://raw.githubusercontent.com/templarfelix/argocd-rollouts-extension/main/ui/dist/extension.tar

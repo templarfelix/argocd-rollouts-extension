@@ -5,8 +5,8 @@ resources:
 - https://raw.githubusercontent.com/argoproj/argo-cd/v2.7.9/manifests/install.yaml
 - ApplicationSet.yaml
 # another test extension
-- https://raw.githubusercontent.com/speedfl/argocd-applicationset-extension/master/manifests/apps-of-appset.yaml
-- https://raw.githubusercontent.com/speedfl/argocd-applicationset-extension/master/manifests/extension.yaml
+#- https://raw.githubusercontent.com/speedfl/argocd-applicationset-extension/master/manifests/apps-of-appset.yaml
+#- https://raw.githubusercontent.com/speedfl/argocd-applicationset-extension/master/manifests/extension.yaml
 
 components:
 - https://github.com/argoproj-labs/argocd-extensions/manifests
