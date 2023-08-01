@@ -1,11 +1,8 @@
 apiVersion: argoproj.io/v1alpha1
 kind: ArgoCDExtension
 metadata:
-  name: argocd-rollouts2-ext
+  name: argocd-rollouts-ext
   namespace: argocd
-  labels:
-    tab: "ApplicationSet"
-    icon: "fa-files"
   finalizers:
     - extensions-finalizer.argocd.argoproj.io
 spec:
