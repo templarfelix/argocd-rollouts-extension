@@ -1,14 +1,12 @@
 import * as React from 'react';
 
-export const Extension = (props: {
-  tree: any;
-  resource: any;
-}) => (
+export const Extension = (props: any) => { 
+return (
   <div>
-    Hello {props.resource.metadata.name}!
+    Hello {props}!
   </div>
   
-);
+)};
 
 export const component = Extension;
 
