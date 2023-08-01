@@ -11,3 +11,11 @@ export const Extension = (props: {
 );
 
 export const component = Extension;
+
+((window: any) => {
+   window.extensionsAPI.registerAppViewExtension(
+    component,
+    "Test Ext",
+    "fa-flask"
+  );
+})(window);
