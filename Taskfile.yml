@@ -1,0 +1,21 @@
+# https://taskfile.dev
+
+version: '3'
+
+includes:
+  ui:
+    taskfile: ./ui/
+    dir: ./ui
+
+tasks:
+  commit:
+    cmds:
+      - git add --all 
+      - git commit -m "debug"
+      - git push
+  apply:
+    cmds:
+      - kubectl delete -f ./dist/extension.yaml
+      - pause 30s
+      - kubectl apply -f ./dist/extension.yaml
+    

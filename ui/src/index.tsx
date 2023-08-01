@@ -1,19 +1,21 @@
 import * as React from 'react';
 
-export const Extension = (props: any) => {
+export const Extension = (props: {
+  tree: any;
+  resource: any;
+}) => (
+  <div>
+    Hello {props?.resource?.metadata?.name}
+  </div>
   
-
-  return (
-    <div>hello</div>
-  );
-};
+);
 
 export const component = Extension;
 
 ((window: any) => {
    window.extensionsAPI.registerAppViewExtension(
     component,
-    "Argo Rollouts",
+    "Rolloutssss",
     "fa-flask"
   );
 })(window);
