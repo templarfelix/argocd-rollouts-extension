@@ -9,9 +9,9 @@ const config = {
   },
   output: {
     filename: 'extensions.js',
-    path: __dirname + `/dist/resources/${groupKind}/ui`,
+    path: __dirname + `/dist/appviews/${groupKind}/ui`,
     libraryTarget: 'window',
-    library: ['extensions', 'resources', groupKind],
+    library: ['extensions', 'appviews', groupKind],
   },
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.json', '.ttf', '.scss'],
