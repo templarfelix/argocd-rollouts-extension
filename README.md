@@ -2,6 +2,10 @@
 aa
 ```
 
+## EXAMPLES
+https://github.com/speedfl/argocd-applicationset-extension/tree/master
+https://github.com/argoproj-labs/argocd-extension-metrics/tree/main
+
 
 ((window) => {
   const component = () => {
@@ -17,3 +21,6 @@ aa
     "fa-flask"
   );
 })(window);
+
+// get ui customs
+window.extensions

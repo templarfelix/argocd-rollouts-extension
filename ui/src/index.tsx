@@ -6,8 +6,6 @@ export const Extension = (props: {
 }) => (
   <div>
     Hello {props.resource.metadata.name}!
-    <div>Hello {props.tree}!</div>
-    <div>Hello {props.resource}!</div>
   </div>
   
 );
