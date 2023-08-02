@@ -1,11 +1,13 @@
 import * as React from 'react';
 
 export const Extension = (props: {
-  tree: any;
-  resource: any;
+  status?: any;
+  health?: any;
+  hook?: boolean;
+  root?: any;
 }) => (
   <div>
-    Hello {props?.resource?.metadata?.name}
+    Hello {props?.hook}
   </div>
   
 );
