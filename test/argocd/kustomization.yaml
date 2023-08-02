@@ -1,0 +1,13 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: argocd
+
+resources:
+- namespace.yaml
+- https://raw.githubusercontent.com/argoproj/argo-cd/v2.7.9/manifests/install.yaml
+#- https://raw.githubusercontent.com/argoproj-labs/argocd-extension-metrics/main/manifests/extension.yaml
+#- https://raw.githubusercontent.com/argoproj-labs/rollout-extension/master/manifests/install.yaml
+
+components:
+- https://github.com/argoproj-labs/argocd-extensions/manifests

@@ -6,6 +6,9 @@ includes:
   ui:
     taskfile: ./ui/
     dir: ./ui
+  test:
+    taskfile: ./test/
+    dir: ./test
 
 tasks:
   commit:
@@ -16,6 +19,5 @@ tasks:
   apply:
     cmds:
       - kubectl delete -f ./dist/extension.yaml
-      - pause 30s
       - kubectl apply -f ./dist/extension.yaml
     
