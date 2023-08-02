@@ -3,7 +3,7 @@ const webpack = require("webpack");
 const TerserWebpackPlugin = require("terser-webpack-plugin");
 // What are the options for groupKind
 const groupKind = "argoproj.io/Rollout";
-const extName = "Metrics";
+const extName = "Rollouts";
 
 const config = {
   entry: {
