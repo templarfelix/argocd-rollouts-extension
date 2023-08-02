@@ -10,3 +10,6 @@ https://argo-cd.readthedocs.io/en/latest/developer-guide/extensions/ui-extension
 ## EXAMPLES
 https://github.com/speedfl/argocd-applicationset-extension/tree/master
 https://github.com/argoproj-labs/argocd-extension-metrics/tree/main
+
+## ROLLOUTS
+https://github.com/argoproj/rollouts-demo/tree/master/examples/istio-subset
