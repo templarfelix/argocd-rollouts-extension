@@ -1,10 +1,8 @@
 import * as React from 'react';
 
-export const Extension = (props: {
-  tree : any
-}) => (
+export const Extension = (props: any) => (
   <div>
-    Hello CUSTOM{props?.tree}
+    Hello CUSTOM{props}
   </div>
   
 );
