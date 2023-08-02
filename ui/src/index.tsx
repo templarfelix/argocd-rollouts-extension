@@ -16,6 +16,7 @@ export const component = Extension;
    window.extensionsAPI.registerAppViewExtension(
     component,
     "Rolloutssss",
-    "fa-earlybird"
+    "fa-flask"
+    // fa-earlybirds
   );
 })(window);
