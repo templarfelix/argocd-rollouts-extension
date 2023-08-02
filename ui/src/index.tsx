@@ -1,6 +1,9 @@
 import * as React from 'react';
 
-export const Extension = (props: any) => {
+export const Extension = (props: {
+  application: any
+  tree:any
+}) => {
   
   function handleClick(event:any) { 
     
@@ -16,7 +19,8 @@ return (
       Hello World 
       
     </div> 
-    Hello 2
+    Hello 3
+    {props?.application?.kind}
   </div>
   );
 };
