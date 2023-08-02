@@ -2,14 +2,12 @@ import * as React from 'react';
 
 export const Extension = (props: any) => {
   
-
   function handleClick(event:any) { 
     
     console.log(event) 
     console.log(props);
     
   } 
-
 
 return (
   <div>
@@ -18,7 +16,7 @@ return (
       Hello World 
       
     </div> 
-    Hello
+    Hello 2
   </div>
   );
 };
