@@ -1,8 +1,9 @@
 import * as React from 'react';
 
 export const Extension = (props: any) => {
-
   
+  console.log(props);
+
 return (
   <div>
     Hello
