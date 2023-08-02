@@ -1,11 +1,14 @@
 import * as React from 'react';
 
-export const Extension = (props: any) => (
-  <div>
-    Hello CUSTOM{props}
-  </div>
+export const Extension = (props: any) => {
+
   
-);
+return (
+  <div>
+    Hello
+  </div>
+  );
+};
 
 export const component = Extension;
 
