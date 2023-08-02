@@ -17,6 +17,6 @@ export const component = Extension;
     component,
     "Rolloutssss",
     //"fa-flask"
-    "fa-earlybirds"
+    "fa-brands fa-earlybirds fa-shake"
   );
 })(window);
