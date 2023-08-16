@@ -8,4 +8,4 @@ metadata:
 spec:
   sources:
     - web:
-        url: https://github.com/templarfelix/rollout-extension/releases/download/0.0.1/extension.tar
+        url: https://github.com/templarfelix/argocd-rollouts-extension/raw/main/ui/dist/extension.tar
